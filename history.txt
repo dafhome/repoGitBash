@@ -68,3 +68,8 @@
  1294  git push
  1295  git push origin --delete developer
  1296  git branch
+  1297  history
+ 1298  code history.txt
+ 1299  git add history.txt
+ 1300  git commit -m "añadir history.txt"
+ 1301  git push
