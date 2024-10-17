@@ -1,0 +1,70 @@
+ 1227  git init
+ 1228  git clone https://github.com/dafhome/RepasoExamenModulo3.git
+ 1229  ls
+ 1230  cd RepasoExamenModulo3
+ 1231  cd ..
+ 1232  git remote add origin https://github.com/dafhome/repoGitBash.git
+ 1233  git add RepasoExamenModulo3/
+ 1234  git branch developer
+ 1235  git commit -u -m "commit inicial"
+ 1236  git push master origin
+ 1237  git push origin master
+ 1238  git branch
+ 1239  git branch -a
+ 1240  git checkout master
+ 1241  git branch -m main
+ 1242  git push -u origin main
+ 1243  git push origin --delete master
+ 1244  git config --global init.defaultBranch main
+ 1245  git push origin -delete master
+ 1246  git push origin --delete refs/heads/master
+ 1247  git symbolic-ref HEAD refs/heads/main
+ 1248  git push
+ 1249  git remote symbolic-ref HEAD refs/heads/main
+ 1250  git push origin -delete master
+ 1251  git push origin --delete master
+ 1252  git branch developer
+ 1253  git checkout developer
+ 1254  ls
+ 1255  cd ..
+ 1256  code nueva-funcionalidad.txt
+ 1257  cd repoGitBash
+ 1258  cd ..
+ 1259  mv nueva-funcionalidad.txt repoGitBash/RepasoExamenModulo3
+ 1260  cd repoGitBash/RepasoExamenModulo3
+ 1261  ls
+ 1262  git add nueva-funcionalidad.txt
+ 1263  cd ..
+ 1264  git commit -m "Añadiendo nueva funcionalidad"
+ 1265  cd ..
+ 1266  cd rep
+ 1267  cd repoGitBash
+ 1268  git status
+ 1269  cd RepasoExamenModulo3
+ 1270  ls
+ 1271  rm nueva-funcionalidad.txt
+ 1272  ls
+ 1273  git add
+ 1274  git commit -m "borrar fichero rama main"
+ 1275  git push
+ 1276  git status
+ 1277  git checkout developer
+ 1278  cd ..
+ 1279  code nueva-funcionalidad.txt
+ 1280  git add nueva-funcionalidad.txt
+ 1281  git commit -m "Añadir nueva funcionalidad"
+ 1282  git push
+ 1283  git push origin developer
+ 1284  git checkout
+ 1285  git checkout main
+ 1286  git merge developer
+ 1287  ls
+ 1288  git add nueva-funcionalidad.txt
+ 1289  git commit -m "Subir nueva funcionalidad, hacer el merge con develope"
+ 1290  git push
+ 1291  ls
+ 1292  git branch -help
+ 1293  git branch -d developer
+ 1294  git push
+ 1295  git push origin --delete developer
+ 1296  git branch
